@@ -1,7 +1,15 @@
 
 import './App.css'
-import DisplayArray from './task/displayarray/displayarray'
-import Displayjsx from './task/displayjsx/displayjsx'
+import Count from './task/count'
+
+import DisplayArray from './task/displayarray'
+import DisplayButton from './task/displaybtn'
+import Displayjsx from './task/displayjsx'
+import Child from './task/reactchildern/child'
+import Reactchildern from './task/reactchildern/reactchildern'
+import ShowHide from './task/showhide'
+import DataBinding from './task/databinding'
+import {  Updateparent } from './task/updateparent'
 
 function App() {
 
@@ -10,6 +18,14 @@ function App() {
     <div>
       <Displayjsx/>
       <DisplayArray/>
+      <ShowHide/>
+      <Count/>
+      <DataBinding/>
+      <DisplayButton/>
+      <Updateparent/>
+     <Reactchildern>
+      <Child/>
+     </Reactchildern>
     </div>
     </>
   )
